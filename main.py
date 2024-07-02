@@ -7,7 +7,6 @@ def minmax(numbers):
     Code Your Program here
     ########################################
     """
-    minval = maxval = 0
     for i in range(len(numbers)):
         if i == 0:
             minval = numbers[i]
